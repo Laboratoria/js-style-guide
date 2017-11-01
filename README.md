@@ -72,9 +72,9 @@ eslint: [keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)
 <br>
 ***Add spaces around operators***
 
-Con la excepción de los operadores de incremento y decremento.
+Con la excepción de los operadores de incremento y decremento (por ejemplo, `i++` o `i--`).
 <br>
-*Except increment and decrement operators.*
+*Except increment and decrement operators (for example, `i++` or `i--`).*
 
 eslint: [space-infix-ops](http://eslint.org/docs/rules/space-infix-ops)
 
