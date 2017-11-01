@@ -5,14 +5,14 @@
 ## Reglas Básicas
 
 **Termina cada instrucción con punto y coma.**
-
+<br>
 ***End each statement with a semicolon.***
 
     var x = 5   // ✗ evitar
     var x = 5;  // ✓ ok
 
 **Usa 2 espacios como indentación.**
-
+<br>
 ***Use 2 spaces for indentation.***
 
 eslint:[ indent](http://eslint.org/docs/rules/indent)
@@ -25,7 +25,7 @@ eslint:[ indent](http://eslint.org/docs/rules/indent)
     }
 
 **Evita el uso de múltiples espacios en blanco excepto para indentar código.**
-
+<br>
 ***Do not use multiple spaces except for indentation.***
 
 eslint:[ no-multi-spaces](http://eslint.org/docs/rules/no-multi-spaces)
@@ -42,7 +42,7 @@ eslint:[ camelcase](http://eslint.org/docs/rules/camelcase)
 
 
 **Usa nombres descriptivos en Inglés y en el formato camelCase.**
-
+<br>
 ***Use descriptive names, in English, using camelCase.***
 
     // ✗ evitar
@@ -61,7 +61,7 @@ eslint:[ camelcase](http://eslint.org/docs/rules/camelcase)
 ### Donde agregar espacios
 
 **Agrega un espacio después de las palabras claves.**
-
+<br>
 ***Add a space after keywords.***
 
 eslint:[ keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)
@@ -71,7 +71,7 @@ eslint:[ keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)
 
 
 **Agrega espacios a cada lado de los operadores.**
-
+<br>
 ***Add spaces around operators***
 
 Con la excepción de los operadores de incremento y decremento.
@@ -90,7 +90,7 @@ eslint:[ space-infix-ops](http://eslint.org/docs/rules/space-infix-ops)
  
 
 **Agrega un espacio después de las comas.**
-
+<br>
 ***Add a space after commas.***
 
 Excepto si es el último símbolo en la línea.
@@ -109,7 +109,7 @@ eslint:[ comma-spacing](http://eslint.org/docs/rules/comma-spacing)
 
 
 **Agrega un espacio antes de los bloques.**
-
+<br>
 ***Add  a space before blocks.***
 
 eslint:[ space-before-blocks](http://eslint.org/docs/rules/space-before-blocks)
@@ -118,7 +118,7 @@ eslint:[ space-before-blocks](http://eslint.org/docs/rules/space-before-blocks)
     if (admin) {...}    // ✓ ok
 
 **Usar espacios dentro de comentarios.**
-
+<br>
 ***Add spaces inside comments.***
 
 eslint:[ spaced-comment](http://eslint.org/docs/rules/spaced-comment)
@@ -131,7 +131,7 @@ eslint:[ spaced-comment](http://eslint.org/docs/rules/spaced-comment)
 
 
 **Agregar un espacio entre dos puntos y pares clave valor.**
-
+<br>
 ***Add a space between colon and value in key value pairs.***
 
 eslint:[ key-spacing](http://eslint.org/docs/rules/key-spacing)
@@ -146,7 +146,7 @@ eslint:[ key-spacing](http://eslint.org/docs/rules/key-spacing)
 ### **Donde no agregar espacios**
 
 **Evita el uso de espacios en blanco múltiples a excepción de indentación.**
-
+<br>
 ***Do not use multiple spaces except for indentation.***
 
 eslint:[ no-multi-spaces](http://eslint.org/docs/rules/no-multi-spaces)
@@ -157,7 +157,7 @@ eslint:[ no-multi-spaces](http://eslint.org/docs/rules/no-multi-spaces)
 
 
 **Evita espacios en blanco entre paréntesis.**
-
+<br>
 ***Do not use spaces inside parentheses.***
 
 eslint:[ space-in-parens](http://eslint.org/docs/rules/space-in-parens)
@@ -168,7 +168,7 @@ eslint:[ space-in-parens](http://eslint.org/docs/rules/space-in-parens)
 
 
 **Evita uso de espacios antes de los paréntesis de la función declarada.**
-
+<br>
 ***Do not add a space before a function declaration's parentheses.***
 
 eslint:[ space-before-function-paren](http://eslint.org/docs/rules/space-before-function-paren)
@@ -181,7 +181,7 @@ eslint:[ space-before-function-paren](http://eslint.org/docs/rules/space-before-
 
 
 **Evita uso de espacios entre el identificador de la función y su invocación.**
-
+<br>
 ***Do not add a space between function identifiers and their invocations.***
 
 eslint:[ func-call-spacing](http://eslint.org/docs/rules/func-call-spacing)
@@ -194,7 +194,7 @@ eslint:[ func-call-spacing](http://eslint.org/docs/rules/func-call-spacing)
 ### **Cómo usar líneas en blanco**
 
 **No usa múltiples líneas en blanco.**
-
+<br>
 ***Do not use multiple blank lines.***
 
 eslint:[ no-multiple-empty-lines](http://eslint.org/docs/rules/no-multiple-empty-lines)
@@ -207,7 +207,7 @@ eslint:[ no-multiple-empty-lines](http://eslint.org/docs/rules/no-multiple-empty
 
 
 **No usa líneas en blanco de relleno entre bloques.**
-
+<br>
 ***Do not pad within blocks.***
 
 eslint:[ padded-blocks](http://eslint.org/docs/rules/padded-blocks)
@@ -228,7 +228,7 @@ eslint:[ padded-blocks](http://eslint.org/docs/rules/padded-blocks)
 ## **Otros consejos de formato**
 
 **Usar comillas simples en cadenas de texto.**
-
+<br>
 ***Use single quotes for strings.***
 
 Con la excepción para evitar escapado de texto.
@@ -242,7 +242,7 @@ eslint:[ quotes](https://eslint.org/docs/rules/quotes)
     var str = 'hi';    // ✓ ok
 
 **Evitar puntos decimales flotantes.**
-
+<br>
 ***Do not use floating decimals.***
 
 eslint:[ no-floating-decimal](http://eslint.org/docs/rules/no-floating-decimal)
@@ -252,7 +252,7 @@ eslint:[ no-floating-decimal](http://eslint.org/docs/rules/no-floating-decimal)
     const discount = 0.5;     // ✓ ok
 
 **Mantener consistencia de declarar propiedades de un objeto por línea.**
-
+<br>
 ***Put each object property on a new line.***
 
 eslint:[ object-property-newline](http://eslint.org/docs/rules/object-property-newline)
@@ -272,7 +272,7 @@ eslint:[ object-property-newline](http://eslint.org/docs/rules/object-property-n
 
 
 **Mantener la declaración *else* en la misma línea que sus llaves.**
-
+<br>
 ***Keep else statements on the same line as their curly braces.***
 
 eslint:[ brace-style](http://eslint.org/docs/rules/brace-style)
@@ -296,7 +296,7 @@ eslint:[ brace-style](http://eslint.org/docs/rules/brace-style)
 ## Buenas prácticas
 
 **Usa siempre === en vez de ==.**
-
+<br>
 ***Always use === instead of ==.***
 
 Con la excepción de obj == null para verificar si el objeto sea null || undefined.
@@ -312,7 +312,7 @@ eslint:[ eqeqeq](http://eslint.org/docs/rules/eqeqeq)
     if (name !== 'John')   // ✓ ok
 
 **Usa array literales en vez de array constructors.**
-
+<br>
 **Use array literal instead of array constructors.**
 
 eslint:[ no-array-constructor](http://eslint.org/docs/rules/no-array-constructor)
