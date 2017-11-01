@@ -1,5 +1,4 @@
 # Una Guía de Estilo de JavaScript
-### Para estudiantes de Laboratoria
 
 
 ## Reglas Básicas
