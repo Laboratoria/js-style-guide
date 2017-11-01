@@ -17,11 +17,14 @@
 
 eslint:[ indent](http://eslint.org/docs/rules/indent)
 
-    // ✓ ok
-
+    // ✗ evitar
     function hello (name) {
     console.log('hi', name)
-
+    }
+    
+    // ✓ ok
+    function hello (name) {
+      console.log('hi', name)
     }
 
 **Evita el uso de múltiples espacios en blanco excepto para indentar código.**
