@@ -77,7 +77,7 @@ eslint:[ keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)
 ***Add spaces around operators***
 
 Con la excepción de los operadores de incremento y decremento.
-
+<br>
 *Except increment and decrement operators.*
 
 eslint:[ space-infix-ops](http://eslint.org/docs/rules/space-infix-ops)
@@ -96,7 +96,7 @@ eslint:[ space-infix-ops](http://eslint.org/docs/rules/space-infix-ops)
 ***Add a space after commas.***
 
 Excepto si es el último símbolo en la línea.
-
+<br>
 *Except at the end of the line.*
 
 eslint:[ comma-spacing](http://eslint.org/docs/rules/comma-spacing)
@@ -234,7 +234,7 @@ eslint:[ padded-blocks](http://eslint.org/docs/rules/padded-blocks)
 ***Use single quotes for strings.***
 
 Con la excepción para evitar escapado de texto.
-
+<br>
 *Except when you need to use single quotes in your string.*
 
 eslint:[ quotes](https://eslint.org/docs/rules/quotes)
@@ -302,7 +302,7 @@ eslint:[ brace-style](http://eslint.org/docs/rules/brace-style)
 ***Always use === instead of ==.***
 
 Con la excepción de obj == null para verificar si el objeto sea null || undefined.
-
+<br>
 *Exception: obj == null is allowed to check for null || undefined.*
 
 eslint:[ eqeqeq](http://eslint.org/docs/rules/eqeqeq)
