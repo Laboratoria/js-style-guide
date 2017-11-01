@@ -19,12 +19,12 @@ eslint:[ indent](http://eslint.org/docs/rules/indent)
 
     // ✗ evitar
     function hello(name) {
-    console.log('hi', name)
+    console.log('hi', name);
     }
     
     // ✓ ok
     function hello(name) {
-      console.log('hi', name)
+      console.log('hi', name);
     }
 
 
