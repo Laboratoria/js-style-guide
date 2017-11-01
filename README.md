@@ -18,23 +18,14 @@
 eslint:[ indent](http://eslint.org/docs/rules/indent)
 
     // ✗ evitar
-    function hello (name) {
+    function hello(name) {
     console.log('hi', name)
     }
     
     // ✓ ok
-    function hello (name) {
+    function hello(name) {
       console.log('hi', name)
     }
-
-**Evita el uso de múltiples espacios en blanco excepto para indentar código.**
-<br>
-***Do not use multiple spaces except for indentation.***
-
-eslint:[ no-multi-spaces](http://eslint.org/docs/rules/no-multi-spaces)
-
-    const id =    1234    // ✗ evitar
-    const id = 1234       // ✓ ok
 
 
 ## **Nombres de variables y funciones**
@@ -141,11 +132,11 @@ eslint:[ spaced-comment](http://eslint.org/docs/rules/spaced-comment)
 
 eslint:[ key-spacing](http://eslint.org/docs/rules/key-spacing)
 
-    var obj = { 'key' : 'value' }    // ✗ evitar
-    var obj = { 'key' :'value' }     // ✗ evitar
-    var obj = { 'key':'value' }      // ✗ evitar
+    var obj = { 'key' : 'value' };    // ✗ evitar
+    var obj = { 'key' :'value' };     // ✗ evitar
+    var obj = { 'key':'value' };      // ✗ evitar
     
-    var obj = { 'key': 'value' }     // ✓ ok
+    var obj = { 'key': 'value' };     // ✓ ok
 
 
 ### **Donde no agregar espacios**
@@ -156,9 +147,9 @@ eslint:[ key-spacing](http://eslint.org/docs/rules/key-spacing)
 
 eslint:[ no-multi-spaces](http://eslint.org/docs/rules/no-multi-spaces)
 
-    const id =    1234    // ✗ evitar
+    const id =    1234;    // ✗ evitar
     
-    const id = 1234       // ✓ ok
+    const id = 1234;       // ✓ ok
 
 
 **Evita espacios en blanco entre paréntesis.**
@@ -191,9 +182,9 @@ eslint:[ space-before-function-paren](http://eslint.org/docs/rules/space-before-
 
 eslint:[ func-call-spacing](http://eslint.org/docs/rules/func-call-spacing)
 
-    console.log ('hello') // ✗ evitar
+    console.log ('hello'); // ✗ evitar
     
-    console.log('hello')  // ✓ ok
+    console.log('hello');  // ✓ ok
 
 
 ### **Cómo usar líneas en blanco**
@@ -204,10 +195,15 @@ eslint:[ func-call-spacing](http://eslint.org/docs/rules/func-call-spacing)
 
 eslint:[ no-multiple-empty-lines](http://eslint.org/docs/rules/no-multiple-empty-lines)
 
+    // ✗ evitar 
+    var value = 'hello world';
+
+
+    console.log(value);
+    
     // ✓ ok
     
     var value = 'hello world';
-    
     console.log(value);
 
 
@@ -219,13 +215,13 @@ eslint:[ padded-blocks](http://eslint.org/docs/rules/padded-blocks)
 
     if (user) {
                                // ✗ evitar
-     const name = getName();
+      const name = getName();
     
     }
     
     if (user) {
     
-     const name = getName();    // ✓ ok
+      const name = getName();    // ✓ ok
     
     }
 
@@ -244,7 +240,7 @@ eslint:[ quotes](https://eslint.org/docs/rules/quotes)
 
     var str = "hi";   // ✗ evitar
     
-    var str = 'hi';    // ✓ ok
+    var str = 'hi';   // ✓ ok
 
 **Evitar puntos decimales flotantes.**
 <br>
@@ -263,16 +259,16 @@ eslint:[ no-floating-decimal](http://eslint.org/docs/rules/no-floating-decimal)
 eslint:[ object-property-newline](http://eslint.org/docs/rules/object-property-newline)
 
     const user = {
-     name: 'Jane Doe', age: 30,
-     username: 'jdoe86'            // ✗ evitar
+      name: 'Jane Doe', age: 30,
+      username: 'jdoe86'            // ✗ evitar
     };
     
     const user = { name: 'Jane Doe', age: 30, username: 'jdoe86' };    // ✗ evitar
     
     const user = {
-     name: 'Jane Doe',  
-     age: 30,
-     username: 'jdoe86' // ✓ ok
+      name: 'Jane Doe',  
+      age: 30,
+      username: 'jdoe86' // ✓ ok
     };
 
 
