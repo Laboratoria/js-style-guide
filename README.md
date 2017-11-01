@@ -36,14 +36,16 @@ eslint:[ no-multi-spaces](http://eslint.org/docs/rules/no-multi-spaces)
 
 ## **Nombres de variables y funciones**
 
-eslint:[ id-length](http://eslint.org/docs/rules/id-length)
 
-eslint:[ camelcase](http://eslint.org/docs/rules/camelcase)
 
 
 **Usa nombres descriptivos en Inglés y en el formato camelCase.**
 <br>
 ***Use descriptive names, in English, using camelCase.***
+
+eslint:[ id-length](http://eslint.org/docs/rules/id-length)
+<br>
+eslint:[ camelcase](http://eslint.org/docs/rules/camelcase)
 
     // ✗ evitar
     const OBJEcttsssss = {};
