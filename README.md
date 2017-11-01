@@ -97,11 +97,11 @@ eslint:[ comma-spacing](http://eslint.org/docs/rules/comma-spacing)
 
     // ✓ ok
     var list = [1, 2, 3, 4];
-    function greet (name, options) { ... }
+    function greet(name, options) { ... }
     
     // ✗ evitar
     var list = [1,2,3,4];
-    function greet (name,options) { ... }
+    function greet(name,options) { ... }
 
 
 **Agrega un espacio antes de los bloques.**
