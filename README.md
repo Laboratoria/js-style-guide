@@ -314,7 +314,7 @@ eslint:[ eqeqeq](http://eslint.org/docs/rules/eqeqeq)
 
 **Usa array literales en vez de array constructors.**
 <br>
-**Use array literal instead of array constructors.**
+**Use array literals instead of array constructors.**
 
 eslint:[ no-array-constructor](http://eslint.org/docs/rules/no-array-constructor)
 
