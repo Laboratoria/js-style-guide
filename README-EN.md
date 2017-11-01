@@ -1,6 +1,6 @@
 # Laboratoria JavaScript Style Guide
 
-(Version en español)[README.md]
+[Version en español](README.md)
 
 ## Basic Rules
 
