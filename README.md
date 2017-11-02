@@ -208,9 +208,7 @@ eslint: [padded-blocks](http://eslint.org/docs/rules/padded-blocks)
     }
     
     if (user) {
-    
       const name = getName();    // ✓ ok
-    
     }
 
 
