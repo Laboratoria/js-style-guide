@@ -4,14 +4,14 @@
 
 ## Basic Rules
 
-### End each statement with a semicolon.
+#### End each statement with a semicolon.
 
 eslint: [semi](http://eslint.org/docs/rules/semi)
 
     var x = 5   // ✗ avoid
     var x = 5;  // ✓ ok
 
-### Use 2 spaces for indentation.
+#### Use 2 spaces for indentation.
 
 eslint: [indent](http://eslint.org/docs/rules/indent)
 
@@ -31,7 +31,7 @@ eslint: [indent](http://eslint.org/docs/rules/indent)
 
 
 
-### Use descriptive names, in English, using camelCase.
+#### Use descriptive names, in English, using camelCase.
 
 eslint: [id-length](http://eslint.org/docs/rules/id-length)
 <br>
@@ -52,7 +52,7 @@ eslint: [camelcase](http://eslint.org/docs/rules/camelcase)
 
 ### Where to add spaces
 
-### Add a space after keywords.
+#### Add a space after keywords.
 
 eslint: [keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)
 
@@ -60,7 +60,7 @@ eslint: [keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)
     if(condition) { ... }    // ✗ avoid
 
 
-### Add spaces around operators
+#### Add spaces around operators
 
 Except increment and decrement operators (for example, `i++` or `i--`).
 
@@ -75,7 +75,7 @@ eslint: [space-infix-ops](http://eslint.org/docs/rules/space-infix-ops)
     var message = 'hello, ' + name + '!';
  
 
-### Add a space after commas.
+#### Add a space after commas.
 
 Except at the end of the line.
 
@@ -90,14 +90,14 @@ eslint: [comma-spacing](http://eslint.org/docs/rules/comma-spacing)
     function greet(name,options) { ... }
 
 
-### Add  a space before blocks.
+#### Add  a space before blocks.
 
 eslint: [space-before-blocks](http://eslint.org/docs/rules/space-before-blocks)
 
     if (admin){...}     // ✗ avoid
     if (admin) {...}    // ✓ ok
 
-### Add spaces inside comments.
+#### Add spaces inside comments.
 
 eslint: [spaced-comment](http://eslint.org/docs/rules/spaced-comment)
 
@@ -108,7 +108,7 @@ eslint: [spaced-comment](http://eslint.org/docs/rules/spaced-comment)
     /* comment */       // ✓ ok
 
 
-### Add a space between colon and value in key value pairs.
+#### Add a space between colon and value in key value pairs.
 
 eslint: [key-spacing](http://eslint.org/docs/rules/key-spacing)
 
@@ -121,7 +121,7 @@ eslint: [key-spacing](http://eslint.org/docs/rules/key-spacing)
 
 ### Where not to add spaces
 
-### Do not use multiple spaces except for indentation.
+#### Do not use multiple spaces except for indentation.
 
 eslint: [no-multi-spaces](http://eslint.org/docs/rules/no-multi-spaces)
 
@@ -130,7 +130,7 @@ eslint: [no-multi-spaces](http://eslint.org/docs/rules/no-multi-spaces)
     const id = 1234;       // ✓ ok
 
 
-### Do not use spaces inside parentheses.
+#### Do not use spaces inside parentheses.
 
 eslint: [space-in-parens](http://eslint.org/docs/rules/space-in-parens)
 
@@ -139,7 +139,7 @@ eslint: [space-in-parens](http://eslint.org/docs/rules/space-in-parens)
     getName(name)       // ✓ ok
 
 
-### Do not add a space before a function declaration's parentheses.
+#### Do not add a space before a function declaration's parentheses.
 
 eslint: [space-before-function-paren](http://eslint.org/docs/rules/space-before-function-paren)
 
@@ -150,7 +150,7 @@ eslint: [space-before-function-paren](http://eslint.org/docs/rules/space-before-
     run(function() { ... })       // ✓ ok
 
 
-### Do not add a space between function identifiers and their invocations.
+#### Do not add a space between function identifiers and their invocations.
 
 eslint: [func-call-spacing](http://eslint.org/docs/rules/func-call-spacing)
 
@@ -161,7 +161,7 @@ eslint: [func-call-spacing](http://eslint.org/docs/rules/func-call-spacing)
 
 ### How to use blank lines
 
-### Do not use multiple blank lines.
+#### Do not use multiple blank lines.
 
 eslint: [no-multiple-empty-lines](http://eslint.org/docs/rules/no-multiple-empty-lines)
 
@@ -177,7 +177,7 @@ eslint: [no-multiple-empty-lines](http://eslint.org/docs/rules/no-multiple-empty
     console.log(value);
 
 
-### Do not pad within blocks.
+#### Do not pad within blocks.
 
 eslint: [padded-blocks](http://eslint.org/docs/rules/padded-blocks)
 
@@ -196,7 +196,7 @@ eslint: [padded-blocks](http://eslint.org/docs/rules/padded-blocks)
 
 ## Other formatting advice
 
-### Use single quotes for strings.
+#### Use single quotes for strings.
 
 Except when you need to use single quotes in your string.
 
@@ -206,7 +206,7 @@ eslint: [quotes](https://eslint.org/docs/rules/quotes)
     
     var str = 'hi';   // ✓ ok
 
-### Do not use floating decimals.
+#### Do not use floating decimals.
 
 eslint: [no-floating-decimal](http://eslint.org/docs/rules/no-floating-decimal)
 
@@ -214,7 +214,7 @@ eslint: [no-floating-decimal](http://eslint.org/docs/rules/no-floating-decimal)
     
     const discount = 0.5;     // ✓ ok
 
-### Put each object property on a new line.
+#### Put each object property on a new line.
 
 eslint: [object-property-newline](http://eslint.org/docs/rules/object-property-newline)
 
@@ -232,7 +232,7 @@ eslint: [object-property-newline](http://eslint.org/docs/rules/object-property-n
     };
 
 
-### Keep else statements on the same line as their curly braces.
+#### Keep else statements on the same line as their curly braces.
 
 eslint: [brace-style](http://eslint.org/docs/rules/brace-style)
 
@@ -254,7 +254,7 @@ eslint: [brace-style](http://eslint.org/docs/rules/brace-style)
 
 ## Best practices
 
-### Always use === instead of ==.
+#### Always use === instead of ==.
 
 Exception: obj == null is allowed to check for null || undefined.
 
@@ -266,7 +266,7 @@ eslint: [eqeqeq](http://eslint.org/docs/rules/eqeqeq)
     if (name != 'John')    // ✗ avoid
     if (name !== 'John')   // ✓ ok
 
-### Use array literals instead of array constructors.
+#### Use array literals instead of array constructors.
 
 eslint: [no-array-constructor](http://eslint.org/docs/rules/no-array-constructor)
 
