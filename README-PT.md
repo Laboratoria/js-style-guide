@@ -1,6 +1,7 @@
 # Guia de Estilo de JavaScript
 
 [Versão em inglês](README-EN.md)
+[Versão em espanhol](README.md)
 
 ## Regras Básicas
 
