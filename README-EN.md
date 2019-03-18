@@ -2,6 +2,8 @@
 
 [Version en español](README.md)
 
+[Versão em português](README-PT.md)
+
 ## Basic Rules
 
 #### End each statement with a semicolon.
