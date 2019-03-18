@@ -2,6 +2,8 @@
 
 [Version en inglés](README-EN.md)
 
+[Version en portugués](README-PT.md)
+
 ## Reglas Básicas
 
 #### Termina cada instrucción con punto y coma.
