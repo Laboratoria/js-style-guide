@@ -1,5 +1,10 @@
 # Una Guía de Estilo de JavaScript
 
+:warning: Este repositorio ha sido DEPRECADO en favor de
+[`airbnb/javascript`](https://github.com/airbnb/javascript).
+
+***
+
 [Version en inglés](README-EN.md)
 
 [Version en portugués](README-PT.md)
@@ -23,7 +28,7 @@ eslint: [indent](http://eslint.org/docs/rules/indent)
     function hello(name) {
     console.log('hi', name);
     }
-    
+
     // ✓ ok
     function hello(name) {
       console.log('hi', name);
@@ -47,7 +52,7 @@ eslint: [camelcase](http://eslint.org/docs/rules/camelcase)
     const this_is_my_object = {};`
     const miObjecto = {};
     function c() {}
-    
+
     // ✓ ok
     const thisIsMyObject = {};
     function thisIsMyFunction() {}
@@ -78,11 +83,11 @@ eslint: [space-infix-ops](http://eslint.org/docs/rules/space-infix-ops)
     // ✗ evitar
     var x=2;
     var message = 'hello, '+name+'!';
-    
+
     // ✓ ok
     var x = 2;
     var message = 'hello, ' + name + '!';
- 
+
 
 #### Agrega un espacio después de las comas.
 ***Add a space after commas.***
@@ -96,7 +101,7 @@ eslint: [comma-spacing](http://eslint.org/docs/rules/comma-spacing)
     // ✓ ok
     var list = [1, 2, 3, 4];
     function greet(name, options) { ... }
-    
+
     // ✗ evitar
     var list = [1,2,3,4];
     function greet(name,options) { ... }
@@ -118,7 +123,7 @@ eslint: [spaced-comment](http://eslint.org/docs/rules/spaced-comment)
 
     //comment           // ✗ evitar
     // comment          // ✓ ok
-    
+
     /*comment*/         // ✗ evitar
     /* comment */       // ✓ ok
 
@@ -131,7 +136,7 @@ eslint: [key-spacing](http://eslint.org/docs/rules/key-spacing)
     var obj = { 'key' : 'value' };    // ✗ evitar
     var obj = { 'key' :'value' };     // ✗ evitar
     var obj = { 'key':'value' };      // ✗ evitar
-    
+
     var obj = { 'key': 'value' };     // ✓ ok
 
 
@@ -143,7 +148,7 @@ eslint: [key-spacing](http://eslint.org/docs/rules/key-spacing)
 eslint: [no-multi-spaces](http://eslint.org/docs/rules/no-multi-spaces)
 
     const id =    1234;    // ✗ evitar
-    
+
     const id = 1234;       // ✓ ok
 
 
@@ -153,7 +158,7 @@ eslint: [no-multi-spaces](http://eslint.org/docs/rules/no-multi-spaces)
 eslint: [space-in-parens](http://eslint.org/docs/rules/space-in-parens)
 
     getName( name )     // ✗ evitar
-    
+
     getName(name)       // ✓ ok
 
 
@@ -164,7 +169,7 @@ eslint: [space-before-function-paren](http://eslint.org/docs/rules/space-before-
 
     function name (arg) { ... }   // ✗ evitar
     function name(arg) { ... }    // ✓ ok
-    
+
     run(function () { ... })      // ✗ evitar
     run(function() { ... })       // ✓ ok
 
@@ -175,7 +180,7 @@ eslint: [space-before-function-paren](http://eslint.org/docs/rules/space-before-
 eslint: [func-call-spacing](http://eslint.org/docs/rules/func-call-spacing)
 
     console.log ('hello'); // ✗ evitar
-    
+
     console.log('hello');  // ✓ ok
 
 
@@ -186,14 +191,14 @@ eslint: [func-call-spacing](http://eslint.org/docs/rules/func-call-spacing)
 
 eslint: [no-multiple-empty-lines](http://eslint.org/docs/rules/no-multiple-empty-lines)
 
-    // ✗ evitar 
+    // ✗ evitar
     var value = 'hello world';
 
 
     console.log(value);
-    
+
     // ✓ ok
-    
+
     var value = 'hello world';
     console.log(value);
 
@@ -206,9 +211,9 @@ eslint: [padded-blocks](http://eslint.org/docs/rules/padded-blocks)
     if (user) {
                                // ✗ evitar
       const name = getName();
-    
+
     }
-    
+
     if (user) {
       const name = getName();    // ✓ ok
     }
@@ -226,7 +231,7 @@ Con la excepción para evitar escapado de texto.
 eslint: [quotes](https://eslint.org/docs/rules/quotes)
 
     var str = "hi";   // ✗ evitar
-    
+
     var str = 'hi';   // ✓ ok
 
 #### Evitar puntos decimales flotantes.
@@ -235,7 +240,7 @@ eslint: [quotes](https://eslint.org/docs/rules/quotes)
 eslint: [no-floating-decimal](http://eslint.org/docs/rules/no-floating-decimal)
 
     const discount = .5;      // ✗ evitar
-    
+
     const discount = 0.5;     // ✓ ok
 
 #### Mantener consistencia de declarar propiedades de un objeto por línea.
@@ -247,11 +252,11 @@ eslint: [object-property-newline](http://eslint.org/docs/rules/object-property-n
       name: 'Jane Doe', age: 30,
       username: 'jdoe86'            // ✗ evitar
     };
-    
+
     const user = { name: 'Jane Doe', age: 30, username: 'jdoe86' };    // ✗ evitar
-    
+
     const user = {
-      name: 'Jane Doe',  
+      name: 'Jane Doe',
       age: 30,
       username: 'jdoe86' // ✓ ok
     };
@@ -269,7 +274,7 @@ eslint: [brace-style](http://eslint.org/docs/rules/brace-style)
     else {
      // ...
     }
-    
+
     // ✓ ok
     if (condition) {
      // ...
@@ -291,7 +296,7 @@ eslint: [eqeqeq](http://eslint.org/docs/rules/eqeqeq)
 
     if (name == 'John')    // ✗ evitar
     if (name === 'John')   // ✓ ok
-    
+
     if (name != 'John')    // ✗ evitar
     if (name !== 'John')   // ✓ ok
 
@@ -301,8 +306,8 @@ eslint: [eqeqeq](http://eslint.org/docs/rules/eqeqeq)
 eslint: [no-array-constructor](http://eslint.org/docs/rules/no-array-constructor)
 
     var nums = new Array(1, 2, 3);   // ✗ evitar
-    
+
     var nums = [1, 2, 3];            // ✓ ok
 
- 
+
 
